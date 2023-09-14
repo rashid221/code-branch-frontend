@@ -1,0 +1,62 @@
+.login{
+    width: 400px;
+    background: linear-gradient(360deg, #5c0369 3.46%,  #121338 102.32%);
+    /* border:1px solid #dddfe2; */
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%),0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    padding:1rem;
+    margin: 10rem 0;
+    align-items: center;
+}
+
+.login > input {
+    border-radius: 8px;
+    border:2px solid #dddfe2;
+    outline: none;
+    color:#1d2129;
+    margin:0.5rem 0;
+    padding:0.5rem 0.75rem;
+    width:92%;
+    font-size:1rem;
+}
+.login>h2{
+    color:white;
+}
+
+
+.login > .button{
+    background-color:#E80054;
+    margin: 20px 0px;
+    border: 0px;
+    font-size: 1.1rem;
+color:#fff;
+padding: 0.5rem 0.5rem;
+margin:0.5rem 0;
+border-radius: 3px;
+outline: none;
+cursor: pointer;
+}
+
+label{
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    color:white;   
+}
+.login input{
+    margin-bottom: 1rem;
+}
+.login input{
+    background-color: rgba(247, 240, 240, 0.075);
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.4rem;
+    border: 0.1rem solid white;
+   }
+  .login input:focus{
+    background-color: rgba(247, 228, 228, 0.192);
+    border: 0.1rem solid white;
+    color:white;
+    font-weight: 100;
+   }
+
+   

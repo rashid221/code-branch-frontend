@@ -1,0 +1,137 @@
+.adminpage{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 100vw;
+    margin: 1rem 1rem;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%),0 8px 16px rgb(0 0 0 / 10%);
+    border-radius: 8px;
+    background: linear-gradient(360deg, #5c0369 3.46%,  #121338 102.32%);
+    position: relative;
+    padding: 2rem;
+}
+p,h1{
+  color:white;
+}
+span{
+  color: greenyellow;
+}
+table, td, th {
+    border: 1px solid white;
+  }
+  table {
+    
+    border-collapse: collapse;
+    width: 100%;
+    background: linear-gradient(360deg, #5c0369 3.46%,  #a3a6eb 102.32%);
+    margin: 0px;
+  }
+  tbody{
+    color:white;
+    counter-reset: my-counter 0;
+    text-align: center;
+  }
+  tr::before{
+    content: counter(my-counter) ".";
+    counter-increment: my-counter 1;
+  }
+   td,th {
+    padding: 5px;
+    text-align: left;
+  }
+  tr:hover{
+    background-color:rgba(0, 0, 0, 0.626);
+  }
+  h2{
+    color:white;
+  }
+  th {
+    background-color: #616564;
+    color: white;
+  }
+  td{
+    color:white;
+  }
+.main{
+    width: 100%;
+    padding: 0 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    background-color: #121338;
+    color:white;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.main-left{
+    flex: 5;
+}
+.main-right{
+    
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.main-right > .button{
+    width: 25%;
+   background-color:#E80054;
+    margin: 20px 0px;
+    border: 0px;
+    font-size: 1.1rem;
+color:#fff;
+padding: 0.5rem;
+margin:0.5rem 0;
+border-radius: 8px;
+outline: none;
+cursor: pointer;
+}
+.buttoneds{
+  width: 30%;
+ background-color:#E80054;
+  margin: 20px 0px;
+  border: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+color:#fff;
+padding: 0.5rem;
+margin:0.5rem 0;
+border-radius: 8px;
+outline: none;
+cursor: pointer;
+}
+.admin-center{
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.admin-user{
+  display: flex;
+  align-items: center;
+}
+.form-fields{
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 10%),0 8px 16px rgb(0 0 0 / 10%);
+  background-color: #a3a6eb;
+  margin-bottom: 2rem;
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.form-fields input{
+  background-color: white;
+  padding: 0.3rem 0.3rem;
+  border-radius: 0.4rem;
+  border: 0.1rem solid black;
+ }
+ 
+
+
+ 

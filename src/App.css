@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  box-sizing: border-box;
+  display:flex;
+  width:100%;
+  height:auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body{
+  overflow-x: hidden;
+   font-family: 'Readex Pro', sans-serif !important;
+  background: linear-gradient(360deg, #5c0369 3.46%,  #121338 102.32%) !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ 
+.home-page{
+  width:100%;
+  height: auto;
+  background-image: url('./Images/Artboard.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.home-main{
+  width:100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.home-left{
+  width:80%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  margin: 5rem 0rem;
+}
+.home-left h1{
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 5rem;
 }
 
-.App-link {
-  color: #61dafb;
+@media(min-width:998px){
+  
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media(max-width:998px){
+  html{
+      font-size: 85%;
   }
-  to {
-    transform: rotate(360deg);
+  .App{
+    box-sizing: border-box;
+    display:flex;
+    width:100%;
+    height:80vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;;
   }
+ 
+}
+@media(max-width:768px){
+  html{
+      font-size: 65%;
+  }
+  .App{
+    box-sizing: border-box;
+    display:flex;
+    width:100%;
+    height:100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;;
+  }
+  
+ 
 }
